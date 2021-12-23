@@ -1,0 +1,90 @@
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+    margin-left: 100px;
+    overflow: hidden;
+    background-color:rgb(4, 131, 46);
+}
+li {
+    float:left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:darkseagreen;
+}
+body {
+    background-image: url("https://media.lesechos.com/api/v1/images/view/6143cf8e3e45462c555ded36/1280x720/0611726771938-web-tete.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+div.intro,div.gallery{
+    background-color: rgb(182, 230, 194);
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 10px;
+    
+}
+h1,p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+   line-height: 2;
+}
+h1 {
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+*{box-sizing: border-box;}
+
+div.gallery {
+    background-color: rgb(182, 230, 194) ;
+    margin-right: 100px;
+    margin-left: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 10px;
+    }
+   
+ div.box{
+    width: 300px;
+    height:auto;
+    border: black;
+    border-radius: 2px;
+    margin: 10px; 
+
+}
+
+div.gallery img {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+  }
+
+
+div.desc{
+    border-style: solid;
+    background-color: white;
+    border-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+   
+}
